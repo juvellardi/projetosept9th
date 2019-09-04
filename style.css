@@ -1,0 +1,47 @@
+/* para todo o site 
+CTRL + SHIFT + R  - para atualizar todo o site e tirar o cache */ 
+
+*{
+	font-family: "Livvic", sans-serif;
+	box-sizing: border-box;
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #91FF91;
+}
+
+img{
+	max-width: 100%;
+}
+
+.navegador {
+	max-width: 960px;
+	margin: 0 auto;
+	border: 10px solid black;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.nav-plane{
+	max-width: 35px;
+	height: 35px;
+	text-align: left;
+}
+
+.nav-list {
+	display: inline-block;
+	letter-spacing: 2px;
+	table-layout: auto;
+	color: black;
+	text-align: right;
+	text-decoration: none;
+}
+
+.nav-list:hover{
+	text-decoration: underline;
+}
