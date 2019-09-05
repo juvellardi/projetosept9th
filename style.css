@@ -12,7 +12,7 @@ html, body{
 }
 
 body{
-	background-color: #91FF91;
+	background-color: #8df1fd;
 }
 
 img{
@@ -22,9 +22,17 @@ img{
 .navegador {
 	max-width: 960px;
 	margin: 0 auto;
-	border: 10px solid black;
 	padding: 10px;
 	text-decoration: none;
+}
+
+.container{
+	overflow: hidden;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+	text-decoration: none;
+	border: 10px solid black;	
 }
 
 .nav-plane{
@@ -33,15 +41,65 @@ img{
 	text-align: left;
 }
 
-.nav-list {
+.nav-list{
+	display: inline-block;
+	float: right;
+	margin-top: -25px;
+	overflow: hidden;
+}
+
+.nav-list li{
 	display: inline-block;
 	letter-spacing: 2px;
-	table-layout: auto;
 	color: black;
 	text-align: right;
+}
+
+.nav-list a{
 	text-decoration: none;
+	display: inline-block;
 }
 
 .nav-list:hover{
 	text-decoration: underline;
+}
+
+.header{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: justify-all;
+	background-image: url("./images/maresias.jpg");
+	background-size: 100%;
+}
+
+.background{
+	background-image: linear-gradient(to top, white,transparent);
+}
+
+.header h1, p{
+	padding: 25px;
+	text-align: center;
+	position: relative;
+	width: 100%; 
+}
+
+.section h2{
+	text-align: center;
+}
+.card-list{ 
+		margin: 0 auto;
+}
+.cards .card{
+	box-sizing: border-box;
+	margin: 0 10px;
+	display: block;
+}
+.cards .card-list .card{
+	width: calc(33% - 20px);
+	display: inline-block;
+}
+.tabela{
+	text-align: center;
+	border-color: white;
 }
