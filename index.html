@@ -57,11 +57,11 @@
 	<section class="tabela">
 		<div class="container">
 			<h3>Tabela de investimentos</h3>
-			<table>
+			<table align="center">
 				<tr>
-					<tr>Destino</tr>
-					<tr>Tempo de viagem</tr>
-					<tr>Preço</tr>
+					<th>Destino</th>
+					<th>Tempo de viagem</th>
+					<th>Preço</th>
 				</tr>
 				<tr>
 					<td>Jericoacoara</td>
@@ -81,6 +81,33 @@
 			</table>
 		</div>
 	</section>
-	<footer></footer>
+	<footer class="contato">
+		<div class="container">
+			<h3>Entre em contato</h3>
+				<form action="suggestion">
+					
+					<label for="name">Nome:</label>
+
+					<input type="text" id="name" name="First name" placeholder="First Name">
+					
+					<label for="email">
+						E-mail 
+					</label>
+
+					<input type="email" id="email" name="email" placeholder="E-mail">
+
+					<label for="message">Escreva aqui: 
+					</label>
+
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+					<label for="Enviar"></label>
+
+
+					<input type="submit" id="submit" value="Enviar">
+				</form>
+
+		</div>
+	</footer>
 </body>
 </html>

@@ -20,10 +20,14 @@ img{
 }
 
 .navegador {
-	max-width: 960px;
+	width:100%;
 	margin: 0 auto;
 	padding: 10px;
 	text-decoration: none;
+	position: fixed;
+	z-index: 1;
+	background-color: white;
+	top: 0;
 }
 
 .container{
@@ -60,9 +64,6 @@ img{
 	display: inline-block;
 }
 
-.nav-list:hover{
-	text-decoration: underline;
-}
 
 .header{
 	max-width: 960px;
@@ -71,6 +72,7 @@ img{
 	text-align: justify-all;
 	background-image: url("./images/maresias.jpg");
 	background-size: 100%;
+	margin-top: 110px;
 }
 
 .background{
@@ -99,7 +101,21 @@ img{
 	width: calc(33% - 20px);
 	display: inline-block;
 }
+
 .tabela{
 	text-align: center;
 	border-color: white;
+	table-layout: fixed;
+}
+
+.tabela table, th, td, tr{
+	border: 1px solid white;
+}
+.contato{
+	text-align: center;
+
+}
+
+.contato label{
+	display: block;
 }
