@@ -12,7 +12,7 @@ html, body{
 }
 
 body{
-	background-color: #8df1fd;
+	background-color: #FAFAFA;
 }
 
 img{
@@ -26,8 +26,17 @@ img{
 	text-decoration: none;
 	position: fixed;
 	z-index: 1;
-	background-color: white;
+	background-color: #263C70;
 	top: 0;
+	border-bottom-style: dotted;
+	border-color: white;
+}
+
+.marca{
+	display: inline-block;	
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
 }
 
 .container{
@@ -36,7 +45,6 @@ img{
 	margin: 0 auto;
 	padding: 10px;
 	text-decoration: none;
-	border: 10px solid black;	
 }
 
 .nav-plane{
@@ -48,20 +56,22 @@ img{
 .nav-list{
 	display: inline-block;
 	float: right;
-	margin-top: -25px;
+	margin-top: -45px;
 	overflow: hidden;
+	color: white;
 }
 
 .nav-list li{
 	display: inline-block;
 	letter-spacing: 2px;
-	color: black;
 	text-align: right;
 }
 
 .nav-list a{
 	text-decoration: none;
 	display: inline-block;
+	color: inherit;
+	padding: 0px 20px;
 }
 
 
@@ -72,7 +82,8 @@ img{
 	text-align: justify-all;
 	background-image: url("./images/maresias.jpg");
 	background-size: 100%;
-	margin-top: 110px;
+	margin-top: 120px;
+	box-shadow: -25px 25px 25px rgba(25,25,25,0.5);
 }
 
 .background{
@@ -86,6 +97,10 @@ img{
 	width: 100%; 
 }
 
+.fundoimgedes{
+	background-image: linear-gradient(transparent, #FFDC2C, transparent);
+}
+
 .section h2{
 	text-align: center;
 }
@@ -96,20 +111,37 @@ img{
 	box-sizing: border-box;
 	margin: 0 10px;
 	display: block;
+	transition: all 400ms linear;
+}
+
+.card img{
+	width: 350px;
+	height: 200px;
 }
 .cards .card-list .card{
 	width: calc(33% - 20px);
 	display: inline-block;
 }
 
+.card:hover { 
+	transform: scale(1.1,1.1);
+	max-width: 100%;
+ }
+
 .tabela{
 	text-align: center;
-	border-color: white;
+	border-color: #4D738A;
 	table-layout: fixed;
 }
 
+.tabela table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
 .tabela table, th, td, tr{
-	border: 1px solid white;
+	border: 5px solid #4D738A;
+	padding: 10px;
 }
 .contato{
 	text-align: center;
