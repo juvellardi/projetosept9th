@@ -1,0 +1,22 @@
+@media screen and(max-width: 768px) {
+	body{
+		overflow: hidden;
+	}
+
+	.navegador{
+		margin: 10px;
+		font-size: 10px;
+	}
+
+	.nav-list ul{
+		text-decoration: none;
+		margin-top: 100px;
+		display: block;
+	}
+	.cards .card-list .card{
+		display: ruby;
+		width: 100%;
+		
+	}
+	
+}
