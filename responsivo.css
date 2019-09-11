@@ -1,11 +1,15 @@
-@media screen and(max-width: 768px) {
-	body{
-		overflow: hidden;
-	}
+@media screen and (max-width: 768px) {
 
 	.navegador{
-		margin: 10px;
+		padding: 10px;
 		font-size: 10px;
+	}
+
+	.nav-list{
+		display: block;
+		float: none;
+		margin-top: 0px;
+		overflow: hidden;
 	}
 
 	.nav-list ul{
@@ -13,10 +17,15 @@
 		margin-top: 100px;
 		display: block;
 	}
+
+	.header{
+	margin-top: 100px;
+
+	}
 	.cards .card-list .card{
 		display: ruby;
 		width: 100%;
-		
+		text-align: center;
 	}
 	
 }

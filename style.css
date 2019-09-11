@@ -118,6 +118,7 @@ img{
 	width: 350px;
 	height: 200px;
 }
+
 .cards .card-list .card{
 	width: calc(33% - 20px);
 	display: inline-block;
