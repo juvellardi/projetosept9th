@@ -2,7 +2,7 @@
 CTRL + SHIFT + R  - para atualizar todo o site e tirar o cache */ 
 
 *{
-	font-family: "Livvic", sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
@@ -146,9 +146,66 @@ img{
 }
 .contato{
 	text-align: center;
-
+	display: inline-block;
 }
 
 .contato label{
 	display: block;
+	text-align: center;
+	
+}
+
+.sociais{
+	margin-top: 25px;
+	text-align: center;
+}
+
+.sociais a{
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+
+.fa-twitter:hover {
+  opacity: 0.7;
+}
+
+.fa-snapchat {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-radius: 50%;
+}
+
+.fa-snapchat:hover {
+  opacity: 0.7;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+	border-radius: 50%;
+}
+
+.fa-pinterest:hover {
+  opacity: 0.7;
 }
