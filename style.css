@@ -146,7 +146,8 @@ img{
 }
 .contato{
 	text-align: center;
-	display: inline-block;
+	display: flex;
+	align-items: center;
 }
 
 .contato label{
