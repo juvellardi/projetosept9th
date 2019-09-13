@@ -145,15 +145,24 @@ img{
 	padding: 10px;
 }
 .contato{
+	display: inline-flex;
 	text-align: center;
-	display: flex;
-	align-items: center;
+	margin-left: calc(20% - 10px);
 }
 
 .contato label{
 	display: block;
 	text-align: center;
 	
+}
+
+.planegif { 
+	width: 320px;
+	height: 320px;
+	position: absolute;
+	right: 160px;
+	top: calc(190% - 20px);
+
 }
 
 .sociais{

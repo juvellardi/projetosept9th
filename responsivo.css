@@ -31,5 +31,14 @@
 	width: 325px;
 	height: 175px;
 }
-	
+
+.contato {
+	display: flex;
+	text-align: center;
+}
+
+.planegif {
+	visibility: hidden;
+}
+
 }
